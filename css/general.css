@@ -17,7 +17,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -34,36 +33,157 @@ body {
 
 header { 
     overflow: hidden;
-    background: maroon; 
+    background: maroon;  
 }
 
 .logo { 
-    height: 3.5rem;
+    height: 5rem;
     width: auto;
     background-color: maroon;
-    padding: .5rem 5%;
+    margin: .5rem 0;
+    padding: .1rem 5%;
 }
 
 .headpicture {
     overflow: hidden;
-    background-image: url(../images/camera.svg);
-    background-color: maroon;
+    background-image: url(../images/camera.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 40rem;
+    background-size: 50rem;
 }
-
+  
+ 
 h1 {
     font-weight: normal; 
-    font-size: 3.25rem;
+    font-size: 1.5rem;
+    font-family: Optima, sans-serif;
     background-color: maroon; 
     text-transform: uppercase;
-    letter-spacing: -.1rem;
-    margin: 6rem 0; 
+    text-align: center;
+    letter-spacing: .1rem;
+    margin: 7rem 0; 
     padding: .25rem 5%;
+    color: white;
 }
     
+h2 { 
+    font-weight: normal; 
+    font-size: 1.5rem;
+    font-family: Book Antique, serif;
+    background-color: white; 
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 1rem 1rem 2rem; 
+    text-align: center;
+    color: maroon;
+}
+
+h3 { 
+    font-weight: normal; 
+    font-size:1rem;
+    font-family: Book Antique, serif;
+    text-transform: uppercase;
+    letter-spacing:.1rem;
+    text-align:center;
+    margin: 1rem 1rem 0; 
+    color: maroon;
+}    
+
+h4 { 
+    font-weight: normal; 
+    font-size:1rem;
+    font-family: Optima, sans-serif;
+    text-transform: uppercase;
+    letter-spacing:.1rem;
+    text-align:left;
+    margin: 1rem 1rem 0; 
+    color: black;
+}    
+p { 
+    line-height: 1.5rem; 
+    margin: 0 1.5rem 2rem;
+    text-align:center;
+    font-family: Optima, sans-serif;
+}
     
+.dropcap:first-letter {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: Book Antique, serif;
+    float: left;
+    margin: 1rem .75rem .5rem .3rem;
+    color:maroon; 
+}
+
+hr {
+    color: maroon;
+    margin:2rem 3rem 3rem;
+} 
+ 
+blockquote { 
+    margin: -1rem 0 0 -1rem;
+    overflow: hidden;
+    color: maroon;
+}
+
+blockquote p {
+    font-size: 1.3rem;
+    font-family: Book Antique, serif;
+    text-align:center;
+}
     
-    
-    
+
+blockquote span { 
+    float: right;
+    margin: 1.5rem 0;
+    color: black;
+}
+
+blockquote p:before { 
+    content: "“";
+    font-size: 3rem;
+    color: maroon;
+    float: left;
+    margin: .5rem 5%;   
+}
+
+blockquote p:after { 
+    content: "”";
+    font-size: 3rem;
+    color: maroon; 
+    float: right;
+    position: absolute;
+    margin: .5rem 5%;  
+}
+
+figure {
+    font-size: .65rem;
+    font-style:italic;
+}
+
+summary { 
+    font-family: Optima, sans-serif;
+    margin: 0 1rem 1rem;
+}
+
+ul li {
+    list-style-image: url(../images/little.camera.svg);
+    font-size: 3.5;
+    font-family: Optima, sans-serif;
+    margin: 0 1rem;
+}
+
+footer { 
+    background-color: maroon;
+    overflow:hidden;
+} 
+
+footer p { 
+    margin: .5rem 5% 3rem;
+    color: white;
+    font-size: .75rem; 
+    text-align:left
+} 
+
+footer a { color: white; } 
