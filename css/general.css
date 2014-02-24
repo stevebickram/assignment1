@@ -92,7 +92,7 @@ p {
 }
 
 figure + p {
-    font-size:1;
+    font-size:1rem;
     line-height: 1.3rem;
 }
 
@@ -170,7 +170,7 @@ summary {
 
 ul li {
     list-style-image: url(../images/little.camera.svg);
-    font-size: 3.5;
+    font-size: 3.5rem;
     font-family: Optima, sans-serif;
     margin: 0 1rem;
 }
