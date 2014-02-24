@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -7,7 +6,7 @@
 @viewport { width: device-width; scale: 1; }
 
 * {
-	-moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -52,15 +51,13 @@ header {
     background-position: center center;
     background-size: 50rem;
 }
-  
- 
+
 h1 {
     font-weight: normal; 
     font-size: 1.5rem;
     font-family: Optima, sans-serif;
     background-color: maroon; 
-    text-transform: uppercase;
-    text-align: center;
+    text-transform: uppercase;   
     letter-spacing: .1rem;
     margin: 7rem 0; 
     padding: .25rem 5%;
@@ -74,46 +71,51 @@ h2 {
     background-color: white; 
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin: 1rem 1rem 2rem; 
-    text-align: center;
+    margin: 1rem 1rem 1rem;
     color: maroon;
 }
 
 h3 { 
     font-weight: normal; 
-    font-size:1rem;
+    font-size:1.5rem;
     font-family: Book Antique, serif;
     text-transform: uppercase;
     letter-spacing:.1rem;
-    text-align:center;
     margin: 1rem 1rem 0; 
     color: maroon;
 }    
 
-h4 { 
-    font-weight: normal; 
-    font-size:1rem;
-    font-family: Optima, sans-serif;
-    text-transform: uppercase;
-    letter-spacing:.1rem;
-    text-align:left;
-    margin: 1rem 1rem 0; 
-    color: black;
-}    
 p { 
-    line-height: 1.5rem; 
+    line-height: 1.3rem; 
     margin: 0 1.5rem 2rem;
-    text-align:center;
     font-family: Optima, sans-serif;
 }
-    
+
+figure + p {
+    font-size:1;
+    line-height: 1.3rem;
+}
+
+ins {
+    font-size: .8rem;
+    font-style:italic;
+    text-decoration: none;
+}
+
 .dropcap:first-letter {
-    font-size: 4.5rem;
+    font-size: 4.7rem;
     font-weight: bold;
     font-family: Book Antique, serif;
     float: left;
-    margin: 1rem .75rem .5rem .3rem;
+    margin: 1.5rem .3rem .4rem;
     color:maroon; 
+}
+
+.dropcap {
+    font-size: 1rem;
+    font-weight: bold; 
+    color: maroon;
+    margin: 1rem 0 0;
 }
 
 hr {
@@ -129,8 +131,7 @@ blockquote {
 
 blockquote p {
     font-size: 1.3rem;
-    font-family: Book Antique, serif;
-    text-align:center;
+    font-family: Book Antique, serif; 
 }
     
 
@@ -180,10 +181,13 @@ footer {
 } 
 
 footer p { 
-    margin: .5rem 5% 3rem;
+    margin: 0rem 5% 0rem;
     color: white;
-    font-size: .75rem; 
+    font-size: 1rem; 
     text-align:left
 } 
 
-footer a { color: white; } 
+footer a { 
+    color: white; 
+} 
+
