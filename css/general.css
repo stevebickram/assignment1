@@ -171,7 +171,7 @@ summary {
 ul li {
     list-style-image: url(../images/little.camera.svg);
     font-family: Optima, sans-serif;
-    margin: 1rem 1rem;
+    margin: .1rem 1rem;
 }
 
 footer { 
